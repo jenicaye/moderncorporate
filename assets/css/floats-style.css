@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	border: 1px solid #BE1923;
+}
+
+
+
+.menu {
+	height: 100px;
+	background-color: /*#B2D6FF*/#BE1923;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	text-align: left;
+	font-size: xx-large;
+	padding: 10px;
+}
+/*#B2D6FF ANIKAWA*/
+
+.sidebar {
+	height: 150px;
+	width: /*200px*/248px;
+	background-color: /*#F09A9D*/white;
+	border: 1px solid grey;
+	float: left;
+	padding: 20px;
+}
+/*#F09A9D Sea Pink*/
+/*
+.sidebar::after {
+	overflow: auto;
+	content: " ";
+	clear: both;
+	display: table;
+}*/
+
+
+
+.content {
+	height: /*500px*/150px;
+	width: 650px;
+	background-color: /*#F5CF8E*/ #CB9A26;
+	float: left;
+}
+/*#F5CF8E  Manhattan*/
+
+.content-headline {
+	font-weight: bold;
+	color: white;
+}
+
+.footer {
+	clear: both;
+	/*height: 200px;*/
+	border: 1px solid red;
+	background-color: /*#D6E9FE*//*#800000*//*#CD192E*/#CB9A26;
+}
+/*#D6E9FE  Pattens Blue*/
+/*the feature of "clear" is clearing floating*/
+/*clear left and right may not applicable sometimes, but clear floating in general will work*/
+
+/*.clear::after {
+	overflow: auto;
+	content: "hello";
+	clear: both;
+	display: table;
+}*/
+
+.clear:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+/*clear::after and float can recognize the width of the element, not height*/
+/*display: table is not required prior to the update of HTML*/
+/*overflow recognize overflowing elemnents and automatically adjust its dimensions*/
+/*cloat and clear*/
+
+
+.column {
+	background-color: /*#B2D6FF*/#CB9A26;
+	height: 160px;
+	width: 30%;
+	margin: 20px 1.16%;
+	float: left;
+	overflow: scroll;
+}
+
+.footer .column {
+	background-color: /*#B2D6FF*/#BE1923;
+}
+
+p {
+margin-bottom: 20px;
+}
+
+.article-image {
+	float: left;
+	vertical-align: bottom;
+	width: /*300px*/200px;
+	height: 80px;
+	/*margin-right: 20px;
+	margin-bottom: 20px;*/
+	margin: 0 auto;
+}
+
+.avatar1 {
+	float ;left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	/*background-color: #D6E9FE;*/
+	background-image: url(http://media.corporate-ir.net/media_files/IROL/88/88650/Bios/F170713_Campbells_Fabiola_Arredondo_Headshot_Edit_104x104.jpg);
+	/*background-image: url(../images/dog.jpg);*/
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.avatar2 {
+	float ;left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	/*background-color: #D6E9FE;*/
+	background-image: url(http://media.corporate-ir.net/media_files/IROL/88/88650/Bios/howard%20averill_104x104.jpg);
+	/*background-image: url(../images/dog.jpg);*/
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.avatar3 {
+	float ;left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	/*background-color: #D6E9FE;*/
+	background-image: url(http://media.corporate-ir.net/media_files/IROL/88/88650/jbilbrey_104x104.jpg);
+	/*background-image: url(../images/dog.jpg);*/
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.avatar4 {
+	float ;left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	/*background-color: #D6E9FE;*/
+	background-image: url(http://media.corporate-ir.net/media_files/IROL/88/88650/Sarah_Hofstetter_104x104.jpg);
+	/*background-image: url(../images/dog.jpg);*/
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.avatar5 {
+	float ;left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	/*background-color: #D6E9FE;*/
+	background-image: url(http://media.corporate-ir.net/media_files/IROL/88/88650/bdorrance.jpg);
+	/*background-image: url(../images/dog.jpg);*/
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.avatar6 {
+	float ;left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	/*background-color: #D6E9FE;*/
+	background-image: url(http://media.corporate-ir.net/media_files/IROL/85/85260/CorpGov/Tessa%20Hilado%20104.jpg);
+	/*background-image: url(../images/dog.jpg);*/
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.username {
+margin-top: 30px;
+color: white;
+font-weight: bold;
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden;/*This is important*/
+	font-size: small;
+}
+
