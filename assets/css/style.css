@@ -49,12 +49,14 @@
 	width: 650px;
 	background-color: /*#F5CF8E*/ #CB9A26;
 	float: left;
+	padding: 5px 5px;
 }
 /*#F5CF8E  Manhattan*/
 
 .content-headline {
 	font-weight: bold;
 	color: white;
+	font-size: larger;
 }
 
 .footer {
